@@ -1,0 +1,37 @@
+{
+  "criteria": {
+    "adv_give_pure_emerald_recipes": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "pureemeraldtools:pure_emerald"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "pureemeraldtools:pure_emerald_block_craft",
+      "pureemeraldtools:pure_emerald_craft",
+      "pureemeraldtools:pure_emerald_axe_craft",
+      "pureemeraldtools:pure_emerald_boots_craft",
+      "pureemeraldtools:pure_emerald_chestplate_craft",
+      "pureemeraldtools:pure_emerald_helmet_craft",
+      "pureemeraldtools:pure_emerald_hoe_craft",
+      "pureemeraldtools:pure_emerald_leggings_craft",
+      "pureemeraldtools:pure_emerald_pickaxe_craft",
+      "pureemeraldtools:pure_emerald_shovel_craft",
+      "pureemeraldtools:pure_emerald_sword_craft"
+    ]
+  },
+  "parent": "pureemeraldtools:adv_give_emerald_recipes"
+}

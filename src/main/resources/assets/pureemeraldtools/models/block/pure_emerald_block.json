@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "pureemeraldtools:block/pure_emerald_block",
+    "up": "pureemeraldtools:block/pure_emerald_block",
+    "north": "pureemeraldtools:block/pure_emerald_block",
+    "east": "pureemeraldtools:block/pure_emerald_block",
+    "south": "pureemeraldtools:block/pure_emerald_block",
+    "west": "pureemeraldtools:block/pure_emerald_block",
+    "particle": "pureemeraldtools:block/pure_emerald_block"
+  },
+  "render_type": "solid"
+}

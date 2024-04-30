@@ -1,0 +1,54 @@
+{
+  "equip_emerald": {
+    "category": "player",
+    "subtitle": "subtitles.equip_emerald",
+    "sounds": [
+      {
+        "name": "pureemeraldtools:equip_emerald1",
+        "stream": false
+      },
+      {
+        "name": "pureemeraldtools:equip_emerald2",
+        "stream": false
+      },
+      {
+        "name": "pureemeraldtools:equip_emerald3",
+        "stream": false
+      },
+      {
+        "name": "pureemeraldtools:equip_emerald4",
+        "stream": false
+      },
+      {
+        "name": "pureemeraldtools:equip_emerald5",
+        "stream": false
+      },
+      {
+        "name": "pureemeraldtools:equip_emerald6",
+        "stream": false
+      }
+    ]
+  },
+  "equip_emerald_netherite": {
+    "category": "player",
+    "subtitle": "subtitles.equip_emerald_netherite",
+    "sounds": [
+      {
+        "name": "pureemeraldtools:equip_emerald_netherite1",
+        "stream": false
+      },
+      {
+        "name": "pureemeraldtools:equip_emerald_netherite2",
+        "stream": false
+      },
+      {
+        "name": "pureemeraldtools:equip_emerald_netherite3",
+        "stream": false
+      },
+      {
+        "name": "pureemeraldtools:equip_emerald_netherite4",
+        "stream": false
+      }
+    ]
+  }
+}

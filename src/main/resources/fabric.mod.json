@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "pureemeraldtools",
-  "version": "1.0.0",
+  "version": "3.0.0",
   "name": "Pure Emerald Tools",
   "description": "A unique take on emerald armor and tools, that just may fit your vibe.",
   "authors": [
@@ -23,9 +23,9 @@
     ]
   },
   "depends": {
-    "fabricloader": ">=0.14.9",
+    "fabricloader": ">=0.14.21",
     "fabric": "*",
-    "minecraft": "~1.19",
+    "minecraft": "~1.20",
     "java": ">=17"
   },
   "mixins": [

@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "pureemeraldtools:items/emerald_sword"
+    "layer0": "pureemeraldtools:item/emerald_sword"
   }
 }

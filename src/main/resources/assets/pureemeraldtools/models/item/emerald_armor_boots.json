@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "pureemeraldtools:items/emerald_boots"
+    "layer0": "pureemeraldtools:item/emerald_boots"
   }
 }

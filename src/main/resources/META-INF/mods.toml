@@ -1,0 +1,24 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="Custom license"
+
+[[mods]]
+modId="pureemeraldtools"
+version="2.0.0"
+displayName="Pure Emerald Tools"
+credits="Made by purejosh"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/pure-emerald-tools-fabric-forge"
+logoFile="logo.png"
+authors="purejosh"
+description="A unique take on emerald armor and tools, that just may fit your vibe."
+
+[[dependencies.pureemeraldtools]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

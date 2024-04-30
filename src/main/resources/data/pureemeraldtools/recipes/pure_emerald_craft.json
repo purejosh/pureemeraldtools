@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "pureemeraldtools:pure_emerald_block"
+    }
+  ],
+  "result": {
+    "item": "pureemeraldtools:pure_emerald",
+    "count": 9
+  }
+}

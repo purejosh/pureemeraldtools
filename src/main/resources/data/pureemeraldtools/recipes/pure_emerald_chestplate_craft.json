@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "pureemeraldtools:pure_emerald"
+    },
+    "2": {
+      "item": "pureemeraldtools:pure_emerald"
+    },
+    "3": {
+      "item": "pureemeraldtools:pure_emerald"
+    },
+    "4": {
+      "item": "pureemeraldtools:pure_emerald"
+    },
+    "5": {
+      "item": "pureemeraldtools:pure_emerald"
+    },
+    "6": {
+      "item": "pureemeraldtools:pure_emerald"
+    },
+    "7": {
+      "item": "pureemeraldtools:pure_emerald"
+    },
+    "8": {
+      "item": "pureemeraldtools:pure_emerald"
+    }
+  },
+  "result": {
+    "item": "pureemeraldtools:pure_emerald_armor_chestplate",
+    "count": 1
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "criteria": {
+    "adv_give_emerald_recipes": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:emerald"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "pureemeraldtools:emerald_boots_craft",
+      "pureemeraldtools:emerald_chestplate_craft",
+      "pureemeraldtools:emerald_helmet_craft",
+      "pureemeraldtools:emerald_leggings_craft",
+      "pureemeraldtools:emerald_axe_craft",
+      "pureemeraldtools:emerald_hoe_craft",
+      "pureemeraldtools:emerald_pickaxe_craft",
+      "pureemeraldtools:emerald_shovel_craft",
+      "pureemeraldtools:emerald_sword_craft"
+    ]
+  }
+}

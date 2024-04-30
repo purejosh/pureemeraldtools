@@ -15,7 +15,10 @@ package net.purejosh.pureemeraldtools;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
+import net.purejosh.pureemeraldtools.init.PureemeraldtoolsModSounds;
+import net.purejosh.pureemeraldtools.init.PureemeraldtoolsModProcedures;
 import net.purejosh.pureemeraldtools.init.PureemeraldtoolsModItems;
+import net.purejosh.pureemeraldtools.init.PureemeraldtoolsModBlocks;
 
 import net.fabricmc.api.ModInitializer;
 
@@ -27,7 +30,12 @@ public class PureemeraldtoolsMod implements ModInitializer {
 	public void onInitialize() {
 		LOGGER.info("Initializing PureemeraldtoolsMod");
 
+		PureemeraldtoolsModBlocks.load();
 		PureemeraldtoolsModItems.load();
+
+		PureemeraldtoolsModProcedures.load();
+
+		PureemeraldtoolsModSounds.load();
 
 	}
 }
