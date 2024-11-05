@@ -8,10 +8,10 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.registry.entry.RegistryEntry;
 import net.minecraft.sound.SoundEvent;
-import net.minecraft.sound.SoundEvents;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.Util;
 import net.purejosh.pureemeraldtools.PureEmeraldTools;
+import net.purejosh.pureemeraldtools.sound.ModSounds;
 
 import java.util.EnumMap;
 import java.util.List;
@@ -27,7 +27,7 @@ public class ModArmorMaterials {
                 map.put(ArmorItem.Type.BOOTS, 3);
                 map.put(ArmorItem.Type.BODY, 9);
             }), 10, 0.5F, 0.0F,
-            SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, () -> Ingredient.ofItems(Items.EMERALD));
+            RegistryEntry.of(ModSounds.ITEM_ARMOR_EQUIP_EMERALD), () -> Ingredient.ofItems(Items.EMERALD));
 
     public static final int EMERALD_DURABILITY = 23;
 
@@ -39,7 +39,7 @@ public class ModArmorMaterials {
                 map.put(ArmorItem.Type.BOOTS, 3);
                 map.put(ArmorItem.Type.BODY, 11);
             }), 12, 2.0F, 0.0F,
-            SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, () -> Ingredient.ofItems(ModItems.PURE_EMERALD));
+            RegistryEntry.of(ModSounds.ITEM_ARMOR_EQUIP_PURE_EMERALD), () -> Ingredient.ofItems(ModItems.PURE_EMERALD));
 
     public static final int PURE_EMERALD_DURABILITY = 35;
 
@@ -51,7 +51,7 @@ public class ModArmorMaterials {
                 map.put(ArmorItem.Type.BOOTS, 3);
                 map.put(ArmorItem.Type.BODY, 11);
             }), 18, 3.0F, 0.1F,
-        SoundEvents.ITEM_ARMOR_EQUIP_GENERIC, () -> Ingredient.ofItems(Items.NETHERITE_SCRAP));
+            RegistryEntry.of(ModSounds.ITEM_ARMOR_EQUIP_PURE_EMERALD_NETHERITE), () -> Ingredient.ofItems(Items.NETHERITE_SCRAP));
 
     public static final int PURE_EMERALD_NETHERITE_DURABILITY = 40;
 

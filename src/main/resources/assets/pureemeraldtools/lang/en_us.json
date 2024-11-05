@@ -42,5 +42,14 @@
     "block.pureemeraldtools.pure_emerald_block": "Block of Pure Emerald",
     "item.pureemeraldtools.pure_emerald_set_bonus": "§d◆ Poison Warding §8Set Bonus",
     "item.pureemeraldtools.pure_emerald_set_bonus_2": "§7Immunity to poison",
-    "effect.pureemeraldtools.poison_warding": "Poison Warding"
+    "effect.pureemeraldtools.poison_warding": "Poison Warding",
+    "subtitle.pureemeraldtools.equip_emerald": "Emerald armor clangs",
+    "subtitle.pureemeraldtools.equip_pure_emerald": "Pure Emerald armor clangs",
+    "subtitle.pureemeraldtools.equip_pure_emerald_netherite": "Pure Emerald Netherite armor clanks",
+    "advancements.adventure.emerald_armor.title": "Villagers hate him!",
+    "advancements.adventure.emerald_armor.description": "Dress to impress with Emerald armor, because trades are boring.",
+    "advancements.adventure.pure_emerald_armor.title": "Poison Protection",
+    "advancements.adventure.pure_emerald_armor.description": "Suit up in Pure Emerald armor and never fear Witches again.",
+    "advancements.adventure.pure_emerald_netherite_armor.title": "Absolute Pure Drip",
+    "advancements.adventure.pure_emerald_netherite_armor.description": "Wear a full set of Pure Emerald Netherite armor, and look down on everyone. You deserve it."
 }

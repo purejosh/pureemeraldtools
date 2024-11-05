@@ -6,6 +6,7 @@ import net.purejosh.pureemeraldtools.block.ModBlocks;
 import net.purejosh.pureemeraldtools.item.ModArmorMaterials;
 import net.purejosh.pureemeraldtools.item.ModItemGroups;
 import net.purejosh.pureemeraldtools.item.ModItems;
+import net.purejosh.pureemeraldtools.sound.ModSounds;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -26,6 +27,7 @@ public class PureEmeraldTools implements ModInitializer {
 		ModItems.init();
 		ModBlocks.init();
 		ModItemGroups.init();
+		ModSounds.init();
 	}
 
 	// This is used in the configured features and placed features registry. No idea why.

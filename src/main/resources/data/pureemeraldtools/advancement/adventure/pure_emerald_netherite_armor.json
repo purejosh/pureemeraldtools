@@ -1,0 +1,47 @@
+{
+	"display": {
+		"icon": {
+			"id": "pureemeraldtools:pure_emerald_netherite_chestplate",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.adventure.pure_emerald_netherite_armor.title"
+		},
+		"description": {
+			"translate": "advancements.adventure.pure_emerald_netherite_armor.description"
+		},
+		"frame": "challenge",
+		"show_toast": true,
+		"announce_to_chat": true
+	},
+	"parent": "pureemeraldtools:adventure/pure_emerald_armor",
+	"criteria": {
+		"pure_emerald_netherite_armor": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "pureemeraldtools:pure_emerald_netherite_helmet"
+					},
+					{
+						"items": "pureemeraldtools:pure_emerald_netherite_chestplate"
+					},
+					{
+						"items": "pureemeraldtools:pure_emerald_netherite_leggings"
+					},
+					{
+						"items": "pureemeraldtools:pure_emerald_netherite_boots"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"pure_emerald_netherite_armor"
+		]
+	],
+	"rewards": {
+		"experience": 200
+	}
+}

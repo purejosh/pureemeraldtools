@@ -1,54 +1,33 @@
 {
-  "equip_emerald": {
-    "category": "player",
-    "subtitle": "subtitles.equip_emerald",
+  "item.armor.equip_emerald": {
     "sounds": [
-      {
-        "name": "pureemeraldtools:equip_emerald1",
-        "stream": false
-      },
-      {
-        "name": "pureemeraldtools:equip_emerald2",
-        "stream": false
-      },
-      {
-        "name": "pureemeraldtools:equip_emerald3",
-        "stream": false
-      },
-      {
-        "name": "pureemeraldtools:equip_emerald4",
-        "stream": false
-      },
-      {
-        "name": "pureemeraldtools:equip_emerald5",
-        "stream": false
-      },
-      {
-        "name": "pureemeraldtools:equip_emerald6",
-        "stream": false
-      }
-    ]
+      "item/armor/equip_diamond1",
+      "item/armor/equip_diamond2",
+      "item/armor/equip_diamond3",
+      "item/armor/equip_diamond4",
+      "item/armor/equip_diamond5",
+      "item/armor/equip_diamond6"
+    ],
+    "subtitle": "subtitle.pureemeraldtools.equip_emerald"
   },
-  "equip_emerald_netherite": {
-    "category": "player",
-    "subtitle": "subtitles.equip_emerald_netherite",
+  "item.armor.equip_pure_emerald": {
     "sounds": [
-      {
-        "name": "pureemeraldtools:equip_emerald_netherite1",
-        "stream": false
-      },
-      {
-        "name": "pureemeraldtools:equip_emerald_netherite2",
-        "stream": false
-      },
-      {
-        "name": "pureemeraldtools:equip_emerald_netherite3",
-        "stream": false
-      },
-      {
-        "name": "pureemeraldtools:equip_emerald_netherite4",
-        "stream": false
-      }
-    ]
+      "item/armor/equip_diamond1",
+      "item/armor/equip_diamond2",
+      "item/armor/equip_diamond3",
+      "item/armor/equip_diamond4",
+      "item/armor/equip_diamond5",
+      "item/armor/equip_diamond6"
+    ],
+    "subtitle": "subtitle.pureemeraldtools.equip_pure_emerald"
+  },
+  "item.armor.equip_pure_emerald_netherite": {
+    "sounds": [
+      "item/armor/equip_netherite1",
+      "item/armor/equip_netherite2",
+      "item/armor/equip_netherite3",
+      "item/armor/equip_netherite4"
+    ],
+    "subtitle": "subtitle.pureemeraldtools.equip_pure_emerald_netherite"
   }
 }

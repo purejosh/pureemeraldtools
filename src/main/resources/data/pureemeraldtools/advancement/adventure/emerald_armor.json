@@ -1,0 +1,44 @@
+{
+	"display": {
+		"icon": {
+			"id": "pureemeraldtools:emerald_chestplate",
+			"count": 1
+		},
+		"title": {
+			"translate": "advancements.adventure.emerald_armor.title"
+		},
+		"description": {
+			"translate": "advancements.adventure.emerald_armor.description"
+		},
+		"frame": "task",
+		"show_toast": true,
+		"announce_to_chat": true
+	},
+	"parent": "minecraft:adventure/trade",
+	"criteria": {
+		"emerald_armor": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"items": "pureemeraldtools:emerald_helmet"
+					},
+					{
+						"items": "pureemeraldtools:emerald_chestplate"
+					},
+					{
+						"items": "pureemeraldtools:emerald_leggings"
+					},
+					{
+						"items": "pureemeraldtools:emerald_boots"
+					}
+				]
+			}
+		}
+	},
+	"requirements": [
+		[
+			"emerald_armor"
+		]
+	]
+}
