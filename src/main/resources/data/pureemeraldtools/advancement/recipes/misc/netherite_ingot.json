@@ -1,0 +1,33 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_netherite_ingot": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:netherite_ingot"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_netherite_ingot"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "pureemeraldtools:pure_emerald_netherite_axe_smithing",
+      "pureemeraldtools:pure_emerald_netherite_boots_smithing",
+      "pureemeraldtools:pure_emerald_netherite_chestplate_smithing",
+      "pureemeraldtools:pure_emerald_netherite_helmet_smithing",
+      "pureemeraldtools:pure_emerald_netherite_hoe_smithing",
+      "pureemeraldtools:pure_emerald_netherite_leggings_smithing",
+      "pureemeraldtools:pure_emerald_netherite_pickaxe_smithing",
+      "pureemeraldtools:pure_emerald_netherite_shovel_smithing",
+      "pureemeraldtools:pure_emerald_netherite_sword_smithing"
+    ]
+  }
+}

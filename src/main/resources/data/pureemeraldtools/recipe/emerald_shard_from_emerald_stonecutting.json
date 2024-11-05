@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "minecraft:emerald"
+  },
+  "result": {
+    "id": "pureemeraldtools:emerald_shard",
+    "count": 2
+  }
+}

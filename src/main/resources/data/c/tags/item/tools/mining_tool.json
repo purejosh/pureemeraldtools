@@ -1,0 +1,11 @@
+{
+  "values": [
+    "pureemeraldtools:emerald_pickaxe",
+    "pureemeraldtools:pure_emerald_pickaxe",
+    "pureemeraldtools:pure_emerald_netherite_pickaxe",
+    {
+      "id": "#c:tools/mining_tools",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_pure_emerald": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": "pureemeraldtools:pure_emerald"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_pure_emerald"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "pureemeraldtools:pure_emerald",
+      "pureemeraldtools:pure_emerald_apple",
+      "pureemeraldtools:pure_emerald_axe",
+      "pureemeraldtools:pure_emerald_block",
+      "pureemeraldtools:pure_emerald_boots",
+      "pureemeraldtools:pure_emerald_chestplate",
+      "pureemeraldtools:pure_emerald_helmet",
+      "pureemeraldtools:pure_emerald_hoe",
+      "pureemeraldtools:pure_emerald_leggings",
+      "pureemeraldtools:pure_emerald_pickaxe",
+      "pureemeraldtools:pure_emerald_shovel",
+      "pureemeraldtools:pure_emerald_sword"
+    ]
+  }
+}

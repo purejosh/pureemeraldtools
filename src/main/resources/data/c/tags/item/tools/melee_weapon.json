@@ -1,0 +1,14 @@
+{
+  "values": [
+    "pureemeraldtools:emerald_sword",
+    "pureemeraldtools:emerald_axe",
+    "pureemeraldtools:pure_emerald_sword",
+    "pureemeraldtools:pure_emerald_axe",
+    "pureemeraldtools:pure_emerald_netherite_sword",
+    "pureemeraldtools:pure_emerald_netherite_axe",
+    {
+      "id": "#c:tools/melee_weapons",
+      "required": false
+    }
+  ]
+}

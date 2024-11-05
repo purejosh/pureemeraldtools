@@ -1,0 +1,9 @@
+{
+  "values": [
+    "pureemeraldtools:emerald_carrot",
+    {
+      "id": "#c:foods/vegetables",
+      "required": false
+    }
+  ]
+}

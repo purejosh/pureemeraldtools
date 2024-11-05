@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "pureemeraldtools:pure_emerald"
+    },
+    "X": {
+      "item": "minecraft:apple"
+    }
+  },
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "id": "pureemeraldtools:pure_emerald_apple"
+  }
+}
