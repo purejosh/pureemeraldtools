@@ -12,7 +12,7 @@ Please open an issue in Github, and choose [Bug](https://github.com/purejosh/pur
 
 ## Need help? 
 
-Please join our [Discord](https://discord.com/invite/X6AsDnqex6) for any additional assistance.
+Check out the [Wiki](https://github.com/purejosh/pureemeraldtools/wiki). If you need more assistance, or just want to be a part of the community, please join our [Discord](https://discord.com/invite/X6AsDnqex6).
 
 ## License
 [MIT-R-NR](https://github.com/purejosh/pureemeraldtools/blob/1.21/LICENSE)
